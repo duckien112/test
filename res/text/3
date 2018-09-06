@@ -1,0 +1,94 @@
+{
+	"lang": "Japanese",
+	"pack_data": [{
+		"name": "入門レベル",
+		"des": "ご案内します"
+	}, {
+		"name": "5X5の包",
+		"des": "5X5をします"
+	}, {
+		"name": "6X6の包",
+		"des": "6X6をします"
+	}, {
+		"name": "7X7の包",
+		"des": "7X7をします"
+	}, {
+		"name": "8X8の包",
+		"des": "8X8をします"
+	}, {
+		"name": "9X9の包",
+		"des": "9X9をします"
+	}, {
+		"name": "10X10の包",
+		"des": "10X10をします"
+	}, {
+		"name": "11X11の包",
+		"des": "11X11をします"
+	}, {
+		"name": "12X12の包",
+		"des": "12X12をします"
+	}, {
+		"name": "13X13の包",
+		"des": "13X13をします"
+	}, {
+		"name": "14X14の包",
+		"des": "14X14をします"
+	}, {
+		"name": "15X15の包",
+		"des": "15X15をします"
+	}, {
+		"name": "16X16の包",
+		"des": "16X16をします"
+	}, {
+		"name": "17X17の包",
+		"des": "17X17をします"
+	}, {
+		"name": "18X18の包",
+		"des": "18X18をします"
+	}, {
+		"name": "19X19の包",
+		"des": "19X19をします"
+	}],
+	"text_ok": "オーケー",
+	"text_level_game": "レベル#level",
+	"text_level": "レベル",
+	"text_lang": "言語",
+	"text_play": "ファイト",
+	"text_rate": "評価",
+	"text_more": "もっと",
+	"text_perfect": "素晴しい!",
+	"msg_completed": "このレベル#levelを",
+	"text_share": "シェア",
+	"text_next_level": "次をしましょう",
+	"text_congra": "すごいですね!",
+	"msg_complete_tutorial": "おめでとうございます案内し終わりました",
+	"msg_complete_all": "最後のレベルを出来ました",
+	"text_try_again": "もう一回やってみましょう",
+	"msg_complete_end_pack": "#pack の最後のレベルを出来ました",
+	"text_wait": "えっ！",
+	"text_ask_friends": "友達に聞きます",
+	"msg_fill_board": "全部ギャップを接しなければならないですよ",
+	"msg_connect_order": "1,2....#pre, #last によって接しなければならないですよ",
+	"text_lock": "ロック",
+	"msg_lock": "前のレベルを通らなければならなくてこのレベルにを出来ます",
+	"text_hint1": "30口振り",
+	"text_hint2": "5口振り",
+	"text_hint_promo": "100%上げます",
+	"text_hint": "口振り",
+	"msg_hint": "もう口振りを貰います",
+	"msg_purchase_fail": "商売できなくて、費がなくならないインターネット接続をチェックして、もう一回やってみてください。",
+	"text_unlock": "#pack を開けます",
+	"text_no": "いいえ",
+	"text_new_version": "新しいバージョン",
+	"msg_new_version": "新しいバージョンがありました。更新しますか？",
+	"text_fb": "facebook",
+	"text_tw": "twitter",
+	"text_like": "観察",
+	"msg_like": "ニュースを更新するために、私達を観察してください",
+	"text_title_mobile": "まだいっぱいレベルがあります",
+    "text_invite": "友達を誘います",
+    "text_invite_menu": "友達",
+    "text_watch_video": "ビデオを見ます",
+	"msg_share": "私は接続Magic Lineゲームにこの#level の#packを通りました。あなたはしませんでしたか？",
+    "msg_ask_friend": "#pack　接続Magic Lineゲームに、このレベル　#levelをまだできないので、　助けて!!!"
+}
