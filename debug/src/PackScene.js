@@ -112,9 +112,9 @@ var PackLayer = cc.Layer.extend({
         btn_back.addTouchEventListener(this.btnUITouchEvent, this);
         this.addChild(btn_back, 1);
 
-        this.iColor = getRandomInt(1, titleColor.length - 1)
+        this.iColor = getRandomInt(0, titleColor.length - 1)
         //var labelPack = new cc.LabelTTF(g_text.text_level, "YK", 120*this.scale_);
-        var labelPack = new cc.LabelTTF("0", "YK", 120*this.scale_);
+        var labelPack = new cc.LabelTTF("1", "YK", 120*this.scale_);
         labelPack.setAnchorPoint(cc.p(0.5, 1));
         labelPack.setPosition(cc.p(size.width/2, size.height - 10*this.scale_));
         labelPack.setColor(titleColor[this.iColor]);
@@ -199,7 +199,7 @@ var PackLayer = cc.Layer.extend({
 
         // set all items layout gravity
         //listView.setGravity(ccui.ListView.GRAVITY_CENTER_VERTICAL);
-        listView.setVisible(true);
+        listView.requestDoLayout();
         return true;
     },
     btnTouchEvent:function(sender, type){
