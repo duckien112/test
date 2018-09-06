@@ -114,14 +114,14 @@ var PackLayer = cc.Layer.extend({
 
         this.iColor = getRandomInt(0, titleColor.length - 1)
         //var labelPack = new cc.LabelTTF(g_text.text_level, "YK", 120*this.scale_);
-        var labelPack = new cc.LabelTTF("4", "YK", 120*this.scale_);
+        var labelPack = new cc.LabelTTF("5", "YK", 120*this.scale_);
         labelPack.setAnchorPoint(cc.p(0.5, 1));
         labelPack.setPosition(cc.p(size.width/2, size.height - 10*this.scale_));
         labelPack.setColor(titleColor[this.iColor]);
         this.addChild(labelPack);
 
         // Create the list view
-        var listView = new ccui.ListView();
+        var listView = new ccui.ScrollView();
         // set list view ex direction
         listView.setDirection(ccui.ScrollView.DIR_VERTICAL);
         listView.setTouchEnabled(true);
@@ -189,18 +189,18 @@ var PackLayer = cc.Layer.extend({
                 item.addChild(labelPackUnlock);
             }
 
-            listView.pushBackCustomItem(item);
+            //listView.pushBackCustomItem(item);
+            listView.addChild(item);
         }
 
         var itemTmp = new ccui.Layout();
         itemTmp.setContentSize(cc.size(size.width, 150*this.scale_));
         itemTmp.width = listView.width;
-        listView.pushBackCustomItem(itemTmp);
+        //listView.pushBackCustomItem(itemTmp);
+        listView.addChild(itemTmp);
 
         // set all items layout gravity
         //listView.setGravity(ccui.ListView.GRAVITY_CENTER_VERTICAL);
-        listView.setVisible(false);
-        listView.setVisible(true);
         return true;
     },
     btnTouchEvent:function(sender, type){
