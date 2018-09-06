@@ -7,6 +7,7 @@ var BUTTON_TAG_PACK = {
     btn_back_ : 0,
     btn_close_ : 1
 };
+var listView = null;
 
 var PackLayer = cc.Layer.extend({
     scale_: 0,
@@ -113,25 +114,30 @@ var PackLayer = cc.Layer.extend({
         this.addChild(btn_back, 1);
 
         this.iColor = getRandomInt(0, titleColor.length - 1)
-        //var labelPack = new cc.LabelTTF(g_text.text_level, "YK", 120*this.scale_);
-        var labelPack = new cc.LabelTTF("5", "YK", 120*this.scale_);
+        var labelPack = new cc.LabelTTF(g_text.text_level, "YK", 120*this.scale_);
+        //var labelPack = new cc.LabelTTF("5", "YK", 120*this.scale_);
         labelPack.setAnchorPoint(cc.p(0.5, 1));
         labelPack.setPosition(cc.p(size.width/2, size.height - 10*this.scale_));
         labelPack.setColor(titleColor[this.iColor]);
         this.addChild(labelPack);
 
         // Create the list view
-        var listView = new ccui.ScrollView();
+        listView = new ccui.ScrollView();
         // set list view ex direction
         listView.setDirection(ccui.ScrollView.DIR_VERTICAL);
         listView.setTouchEnabled(true);
-        listView.setBounceEnabled(false);
+        listView.setBounceEnabled(true);
         listView.setContentSize(cc.size(size.width, size.height - 200*this.scale_));
+        listView.setInnerContainerSize(cc.size(size.width, size.height + 430*this.scale_));
+        //scrollView.setContentSize(cc.size(100, 100));
+        //listView.setBackGroundColor(cc.color.GREEN);
+        //listView.setBackGroundColorType(ccui.Layout.BG_COLOR_SOLID);
         listView.x = 0;
         listView.y = 0;
         //listView.addEventListener(this.selectedItemEvent, this);
         this.addChild(listView);
 
+        var offsetY = 155*this.scale_;
         // add custom item
         for (var i = 0; i < g_pack_num.length; ++i) {
             var item = new ccui.Layout();
@@ -189,19 +195,31 @@ var PackLayer = cc.Layer.extend({
                 item.addChild(labelPackUnlock);
             }
 
+            item.setPositionY((g_pack_num.length - 1 - i)*offsetY);
             //listView.pushBackCustomItem(item);
             listView.addChild(item);
+
+
         }
 
-        var itemTmp = new ccui.Layout();
+        /*var itemTmp = new ccui.Layout();
         itemTmp.setContentSize(cc.size(size.width, 150*this.scale_));
         itemTmp.width = listView.width;
         //listView.pushBackCustomItem(itemTmp);
-        listView.addChild(itemTmp);
+        listView.addChild(itemTmp);*/
+        var isAutoScroll = rms.getItem(KEY_AUTO_SCROLL_PACK, 1);
+        if(isAutoScroll == 1 ){
+            listView.scrollToBottom(3, true);
+            this.scheduleOnce(this.scrollToTop, 3.5);
+        }
 
         // set all items layout gravity
         //listView.setGravity(ccui.ListView.GRAVITY_CENTER_VERTICAL);
         return true;
+    },
+    scrollToTop:function(sender, type){
+        rms.setItem(KEY_AUTO_SCROLL_PACK, 0);
+        listView.scrollToTop(1, true);
     },
     btnTouchEvent:function(sender, type){
         if(this.isPopupShowing) return;
