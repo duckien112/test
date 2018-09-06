@@ -1,0 +1,94 @@
+{
+	"lang": "English",
+	"pack_data": [{
+		"name": "Beginner Pack",
+		"des": "For beginner with tutorial"
+	}, {
+		"name": "5x5 Pack",
+		"des": "Level with 5x5 boards"
+	}, {
+		"name": "6x6 Pack",
+		"des": "Level with 6x6 boards"
+	}, {
+		"name": "7x7 Pack",
+		"des": "Level with 7x7 boards"
+	}, {
+		"name": "8x8 Pack",
+		"des": "Level with 8x8 boards"
+	}, {
+		"name": "9x9 Pack",
+		"des": "Level with 9x9 boards"
+	}, {
+		"name": "10x10 Pack",
+		"des": "Level with 10x10 boards"
+	}, {
+		"name": "11x11 Pack",
+		"des": "Level with 11x11 boards"
+	}, {
+		"name": "12x12 Pack",
+		"des": "Level with 12x12 boards"
+	}, {
+		"name": "13x13 Pack",
+		"des": "Level with 13x13 boards"
+	}, {
+		"name": "14x14 Pack",
+		"des": "Level with 14x14 boards"
+	}, {
+		"name": "15x15 Pack",
+		"des": "Level with 15x15 boards"
+	}, {
+		"name": "16x16 Pack",
+		"des": "Level with 16x16 boards"
+	}, {
+		"name": "17x17 Pack",
+		"des": "Level with 17x17 boards"
+	}, {
+		"name": "18x18 Pack",
+		"des": "Level with 18x18 boards"
+	}, {
+		"name": "19x19 Pack",
+		"des": "Level with 19x19 boards"
+	}],
+	"text_ok": "OK",
+	"text_level_game": "Level #level",
+	"text_level": "Level",
+	"text_lang": "language",
+	"text_play": "play",
+	"text_rate": "rate",
+	"text_more": "more",
+	"text_perfect": "Perfect!",
+	"msg_completed": "You just completed level #level",
+	"text_share": "share",
+	"text_next_level": "next level",
+	"text_congra": "Congratulations!",
+	"msg_complete_tutorial": "You just completed the tutorial",
+	"msg_complete_all": "You've just reached the last level",
+	"text_try_again": "try again",
+	"msg_complete_end_pack": "You've just reached all levels of #pack",
+	"text_wait": "Wait!",
+	"text_ask_friends": "ask friends",
+	"msg_fill_board": "You must fill the board with pipes",
+	"msg_connect_order": "You must connect the points in the order 1, 2, ..., #pre, #last",
+	"text_lock": "Locked",
+	"msg_lock": "Unlock all previous levels to play this pack",
+	"text_hint1": "30 hints",
+    "text_hint2": "5 hints",
+    "text_hint_promo": "More 100%",
+    "text_hint": "Hints",
+    "msg_hint": "Would you like more hints?",
+    "msg_purchase_fail": "Your purchase was not successful. You will not be charged. Please check your network connection and retry",
+    "text_unlock": "Unlock #pack",
+    "text_no": "NO",
+    "text_new_version": "New version",
+    "msg_new_version": "The new version is now available. Would you like to update?",
+    "text_fb": "facebook",
+    "text_tw": "twitter",
+    "text_like": "follow us",
+    "msg_like": "Follow us to get more info about all our upcoming titles.",
+    "text_title_mobile": "Play more levels",
+    "text_invite": "invite friends",
+    "text_invite_menu": "friends",
+    "text_watch_video": "watch video",
+    "msg_share": "I passed level #level, #pack in Magic Line game. Can you? ",
+    "msg_ask_friend": "I solving level #level, #pack in Magic Line game. Help me! "
+}

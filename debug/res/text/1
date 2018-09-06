@@ -1,0 +1,94 @@
+{
+	"lang": "Vietnamese",
+	"pack_data": [{
+		"name": "Gói nhập môn",
+		"des": "Hướng dẫn dành cho người mới"
+	}, {
+		"name": "Gói 5x5",
+		"des": "Màn chơi với bàn 5x5"
+	}, {
+		"name": "Gói 6x6",
+		"des": "Màn chơi với bàn 6x6"
+	}, {
+		"name": "Gói 7x7",
+		"des": "Màn chơi với bàn 7x7"
+	}, {
+		"name": "Gói 8x8",
+		"des": "Màn chơi với bàn 8x8"
+	}, {
+		"name": "Gói 9x9",
+		"des": "Màn chơi với bàn 9x9"
+	}, {
+		"name": "Gói 10x10",
+		"des": "Màn chơi với bàn 10x10"
+	}, {
+		"name": "Gói 11x11",
+		"des": "Màn chơi với bàn 11x11"
+	}, {
+		"name": "Gói 12x12",
+		"des": "Màn chơi với bàn 12x12"
+	}, {
+		"name": "Gói 13x13",
+		"des": "Màn chơi với bàn 13x13"
+	}, {
+		"name": "Gói 14x14",
+		"des": "Màn chơi với bàn 14x14"
+	}, {
+		"name": "Gói 15x15",
+		"des": "Màn chơi với bàn 15x15"
+	}, {
+		"name": "Gói 16x16",
+		"des": "Màn chơi với bàn 16x16"
+	}, {
+		"name": "Gói 17x17",
+		"des": "Màn chơi với bàn 17x17"
+	}, {
+		"name": "Gói 18x18",
+		"des": "Màn chơi với bàn 18x18"
+	}, {
+		"name": "Gói 19x19",
+		"des": "Màn chơi với bàn 19x19"
+	}],
+	"text_ok": "uhm",
+	"text_level_game": "Màn #level",
+	"text_level": "chọn gói",
+	"text_lang": "ngôn ngữ",
+	"text_play": "chiến luôn",
+	"text_rate": "đánh giá",
+	"text_more": "thêm",
+	"text_perfect": "Tuyệt cú mèo!",
+	"msg_completed": "Ấy vừa hoành thành màn #level",
+	"text_share": "khoe tụi bạn",
+	"text_next_level": "chiến tiếp",
+	"text_congra": "Khá là khá!",
+	"msg_complete_tutorial": "Ấy vừa hoành thành phần\nhướng dẫn rồi đấy",
+	"msg_complete_all": "Ấy vừa hoành thành màn cuối cùng rồi đấy",
+	"text_try_again": "thử lại xem sao",
+	"msg_complete_end_pack": "Ấy vừa hoàn thành màn cuối của #pack",
+	"text_wait": "E hèm!",
+	"text_ask_friends": "hỏi tụi bạn",
+	"msg_fill_board": "Ấy phải nối qua tất cả các ô nhé",
+	"msg_connect_order": "Ấy phải nối theo thứ tự\n1, 2, ..., #pre, #last nhé",
+	"text_lock": "Khóa",
+	"msg_lock": "Vượt qua các màn trước\nđể chơi tiếp gói này",
+	"text_hint1": "30 gợi ý",
+	"text_hint2": "5 gợi ý",
+	"text_hint_promo": "Thêm 100%",
+	"text_hint": "Gợi ý",
+	"msg_hint": "Nhận thêm gợi ý",
+	"msg_purchase_fail": "Mua bán chưa thành công. Bạn sẽ không bị mất phí. Vui lòng kiểm tra kết nối mạng và thử lại.",
+	"text_unlock": "Mở #pack",
+	"text_no": "thui",
+	"text_new_version": "Phiên bản mới",
+	"msg_new_version": "Đã có phiên bản mới. Ấy có muốn cập nhật không?",
+	"text_fb": "facebook",
+	"text_tw": "twitter",
+	"text_like": "theo dõi",
+	"msg_like": "Theo dõi chúng tôi để cập nhật\ntin tức mới nhất",
+	"text_title_mobile": "Còn rất nhiều màn chơi",
+    "text_invite": "rủ bạn bè",
+    "text_invite_menu": "bạn bè",
+    "text_watch_video": "xem video",
+    "msg_share": "Tớ đã vượt qua màn #level, #pack trong trò chơi Magic Line. Ấy thử chơi chưa? ",
+    "msg_ask_friend": "Tớ đang bí ở màn #level, #pack trong trò chơi Magic Line. Giúp tớ với! "
+}
