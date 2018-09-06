@@ -199,6 +199,7 @@ var PackLayer = cc.Layer.extend({
 
         // set all items layout gravity
         //listView.setGravity(ccui.ListView.GRAVITY_CENTER_VERTICAL);
+        listView.setVisible(false);
         listView.setVisible(true);
         return true;
     },
