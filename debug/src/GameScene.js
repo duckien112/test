@@ -448,7 +448,7 @@ var GameLayer = cc.Layer.extend({
 
         var levelDataAt = g_levelData[index].substring(0, g_levelData[index].length - 1);
 
-        this.numSize = Math.sqrt(levelDataAt.length/2);
+        this.numSize = Math.ceil(Math.sqrt(levelDataAt.length/2));
         this.numAskTarget = this.numSize*this.numSize;
         cc.log("numSize: " + this.numSize + ", g_level: " + g_level);
 
